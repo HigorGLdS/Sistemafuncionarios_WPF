@@ -1,0 +1,22 @@
+[
+  {
+    "Nome": "Higor G",
+    "Cargo": "Gerente",
+    "SalarioBase": 6000
+  },
+  {
+    "Nome": "Luana Biatiz",
+    "Cargo": "Gerente",
+    "SalarioBase": 7000
+  },
+  {
+    "Nome": "Hugo ",
+    "Cargo": "Funcion\u00E1rio",
+    "SalarioBase": 2400
+  },
+  {
+    "Nome": "Nala",
+    "Cargo": "Estagi\u00E1rio",
+    "SalarioBase": 1250
+  }
+]

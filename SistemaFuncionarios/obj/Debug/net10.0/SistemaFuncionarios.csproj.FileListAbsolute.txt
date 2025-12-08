@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\C#\Sistemafuncionarios\SistemaFuncionarios\bin\Debug\net10.0\SistemaFuncionarios.exe
+C:\Users\User\Desktop\C#\Sistemafuncionarios\SistemaFuncionarios\bin\Debug\net10.0\SistemaFuncionarios.deps.json
+C:\Users\User\Desktop\C#\Sistemafuncionarios\SistemaFuncionarios\bin\Debug\net10.0\SistemaFuncionarios.runtimeconfig.json
+C:\Users\User\Desktop\C#\Sistemafuncionarios\SistemaFuncionarios\bin\Debug\net10.0\SistemaFuncionarios.dll
+C:\Users\User\Desktop\C#\Sistemafuncionarios\SistemaFuncionarios\bin\Debug\net10.0\SistemaFuncionarios.pdb
+C:\Users\User\Desktop\C#\Sistemafuncionarios\SistemaFuncionarios\obj\Debug\net10.0\SistemaFuncionarios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\C#\Sistemafuncionarios\SistemaFuncionarios\obj\Debug\net10.0\SistemaFuncionarios.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\C#\Sistemafuncionarios\SistemaFuncionarios\obj\Debug\net10.0\SistemaFuncionarios.AssemblyInfo.cs
+C:\Users\User\Desktop\C#\Sistemafuncionarios\SistemaFuncionarios\obj\Debug\net10.0\SistemaFuncionarios.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\C#\Sistemafuncionarios\SistemaFuncionarios\obj\Debug\net10.0\SistemaFuncionarios.dll
+C:\Users\User\Desktop\C#\Sistemafuncionarios\SistemaFuncionarios\obj\Debug\net10.0\refint\SistemaFuncionarios.dll
+C:\Users\User\Desktop\C#\Sistemafuncionarios\SistemaFuncionarios\obj\Debug\net10.0\SistemaFuncionarios.pdb
+C:\Users\User\Desktop\C#\Sistemafuncionarios\SistemaFuncionarios\obj\Debug\net10.0\SistemaFuncionarios.genruntimeconfig.cache
+C:\Users\User\Desktop\C#\Sistemafuncionarios\SistemaFuncionarios\obj\Debug\net10.0\ref\SistemaFuncionarios.dll
