@@ -10,13 +10,15 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("SistemaFuncionarios")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("SistemaFuncionariosWPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59f617bbc3dd2d90986d8b994d9c945ea0630a64")]
-[assembly: System.Reflection.AssemblyProductAttribute("SistemaFuncionarios")]
-[assembly: System.Reflection.AssemblyTitleAttribute("SistemaFuncionarios")]
+[assembly: System.Reflection.AssemblyProductAttribute("SistemaFuncionariosWPF")]
+[assembly: System.Reflection.AssemblyTitleAttribute("SistemaFuncionariosWPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
+[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 

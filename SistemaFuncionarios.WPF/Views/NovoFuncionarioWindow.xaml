@@ -1,0 +1,30 @@
+<Window x:Class="SistemaFuncionarios.WPF.Views.NovoFuncionarioWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Novo Funcionário" Height="250" Width="400">
+    
+    <StackPanel Margin="20" VerticalAlignment="Top">
+        
+        <TextBlock Text="Nome:"/>
+        <TextBox x:Name="TxtNome" Margin="0,5,0,10"/>
+
+        <TextBlock Text="Cargo:"/>
+        <ComboBox x:Name="CmbCargo" Margin="0,5,0,10">
+            <ComboBoxItem Content="Funcionário"/>
+            <ComboBoxItem Content="Gerente"/>
+            <ComboBoxItem Content="Estagiário"/>
+        </ComboBox>
+
+        <TextBlock Text="Valor 1 (Salário ou Horas):"/>
+        <TextBox x:Name="TxtValor1" Margin="0,5,0,10"/>
+
+        <TextBlock Text="Valor 2 (Bônus ou Valor/hora):"/>
+        <TextBox x:Name="TxtValor2" Margin="0,5,0,10"/>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
+            <Button Content="Salvar" Width="80" Margin="0,0,10,0" Click="Salvar_Click"/>
+            <Button Content="Cancelar" Width="80" Click="Cancelar_Click"/>
+        </StackPanel>
+
+    </StackPanel>
+</Window>
