@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaFuncionariosWPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59f617bbc3dd2d90986d8b994d9c945ea0630a64")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6395c79df9b711d0de3dbe671f0b432ba9777787")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaFuncionariosWPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaFuncionariosWPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

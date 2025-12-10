@@ -26,20 +26,61 @@
                     Click="Adicionar_Click"/>
         </StackPanel>
 
+        <!-- Barra de busca -->
+        <StackPanel Grid.Column="1" Margin="10" Orientation="Horizontal">
+            <TextBox x:Name="txtBusca"
+                     Width="200"
+                     Margin="0 0 10 0"
+                     TextChanged="txtBusca_TextChanged"/>
+        </StackPanel>
+
         <!-- Lista -->
         <ListView Grid.Column="1"
-                  ItemsSource="{Binding Funcionarios}"
+                  Grid.Row="1"
+                  ItemsSource="{Binding FuncionariosView}"
                   Name="ListaFuncionarios"
                   Margin="10">
 
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Header="Nome" DisplayMemberBinding="{Binding Nome}" Width="150"/>
-                    <GridViewColumn Header="Cargo" DisplayMemberBinding="{Binding Cargo}" Width="150"/>
-                    <GridViewColumn Header="Salário" DisplayMemberBinding="{Binding Salario}" Width="80"/>
+                    <GridViewColumn Header="Nome" DisplayMemberBinding="{Binding Nome}" Width="150">
+                        <GridViewColumn.HeaderContainerStyle>
+                            <Style TargetType="GridViewColumnHeader">
+                                <EventSetter Event="Click" Handler="Ordenar_Click"/>
+                                <Setter Property="Tag" Value="Nome"/>
+                            </Style>
+                        </GridViewColumn.HeaderContainerStyle>
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="Cargo" DisplayMemberBinding="{Binding Cargo}" Width="150">
+                        <GridViewColumn.HeaderContainerStyle>
+                            <Style TargetType="GridViewColumnHeader">
+                                <EventSetter Event="Click" Handler="Ordenar_Click"/>
+                                <Setter Property="Tag" Value="Cargo"/>
+                            </Style>
+                        </GridViewColumn.HeaderContainerStyle>
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="Salário" DisplayMemberBinding="{Binding Salario}" Width="100">
+                        <GridViewColumn.HeaderContainerStyle>
+                            <Style TargetType="GridViewColumnHeader">
+                                <EventSetter Event="Click" Handler="Ordenar_Click"/>
+                                <Setter Property="Tag" Value="Salario"/>
+                            </Style>
+                        </GridViewColumn.HeaderContainerStyle>
+                    </GridViewColumn>
                 </GridView>
             </ListView.View>
         </ListView>
+
+        <!-- Botões inferiores -->
+        <Button Grid.Column="1"
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Left"
+                Margin="10 10 0 10"
+                Padding="10"
+                Content="Editar Selecionado"
+                Click="Editar_Click"/>
 
         <Button Grid.Column="1"
                 VerticalAlignment="Bottom"
